@@ -6,7 +6,7 @@ It draws a rectangular ruler when you move your mouse on the page. The ruler has
 
 ## Installation
 ```shell
-$ git clone https://github.com/Cvtx/hci-page-ruler
+$ git clone https://github.com/Cvtx/hci-page-ruler.git
 ```
 ### Chrome
 1. Enable `Developer mode` in your browser.
