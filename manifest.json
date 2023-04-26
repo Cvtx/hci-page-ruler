@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0",
+  "name": "HCI Page Ruler",
+  "manifest_version": 2,
+  "offline_enabled": true,
+  "short_name": "hci-page-ruler",
+  "permissions": ["storage", "activeTab"],
+  "homepage_url": "https://github.com/Cvtx/hci-page-ruler",
+  "description": "Measure page elements size in pixel and calculate Fitts's index of difficulty.",
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "lib/config.js",
+      "lib/chrome.js",
+      "lib/runtime.js",
+      "lib/common.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "HCI Page Ruler",
+    "default_icon": {
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+    }
+  },
+  "icons": {
+    "16": "data/icons/16.png",
+    "32": "data/icons/32.png",
+    "48": "data/icons/48.png",
+    "64": "data/icons/64.png",
+    "128": "data/icons/128.png"
+  }
+}
